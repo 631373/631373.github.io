@@ -1,0 +1,117 @@
+/**
+ * @name Global Communications Service
+ * @author delete
+ * @version WAN
+ * @description Communications Service for Wide World I.
+ * @source https://github.com/631373/631373.github.io
+ * @website 631373.github.io
+ * @invite NO
+ */
+/* IMPORT CSS */
+@import url(https://631373.github.io/main.css);
+@import url(https://631373.github.io/vencord.css);
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css');
+@import url('https://fonts.googleapis.com/css2?family=Consolas');
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@540&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@550&display=swap'); */
+/* @import url('https://raw.githubusercontent.com/DiscordStyles/HorizontalServerList/deploy/HorizontalServerList.theme.css'); */
+
+/*SETTINGS*/
+:root {
+  /* ACCENT COLORS */
+  --main-color: rgba(150, 150, 150, 0.5); /* main accent color (hex, rgb or hsl) [default: #2780e6] */
+  --hover-color: #AAAAAA; /* hover accent color (hex, rgb or hsl) [default: #1e63b3] */
+  --success-color: #43b581; /* positive accent color (hex, rgb or hsl) [default: #43b581] */
+  --danger-color: #982929; /* danger accent color (hex, rgb or hsl) [default: #982929] */
+
+  /* STATUS COLORS */
+  --online-color: rgba(255, 255, 255, 0.75); /* online status color (hex, rgb or hsl) [default: #43b581] */
+  --idle-color: rgba(200, 200, 200, 0.75); /* idle status color (hex, rgb or hsl) [default: #faa61a] */
+  --dnd-color: rgba(150, 150, 150, 0.75); /* dnd status color (hex, rgb or hsl) [default: #982929] */
+  --streaming-color: rgba(150, 150, 150, 0.75); /* streaming status color (hex, rgb or hsl) [default: #593695] */
+  --offline-color: rgba(25, 25, 25, 0.75); /* offline/invisible status color (hex, rgb or hsl) [default: #808080] */
+
+  /* APP BACKGROUND */
+  --background-shading-percent: 0%; /* app background shading amount (0 for complete smoothness) [default: 100%] */
+  --background-image: url(); /* app background image (link must be HTTPS) [default: url(https://clearvision.github.io/images/sapphire.jpg)]*/
+  --background-position: center; /* app background position [default: center] */
+  --background-size: cover; /* app background size (px) [default: cover] */
+  --background-attachment: fixed; /* app background attachment [default: fixed] */
+  --background-filter: blur(10px) saturate(calc(var(--saturation-factor, 1) * 1.13)) brightness(0.75); /* app background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: saturate(calc(var(--saturation-factor, 1) * 1))] */
+  
+  /* USER POPOUT BACKGROUND */
+  --user-popout-image: var(--background-image); /* user popout background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-popout-position: right; /* user popout position [default: var(--background-position)] */
+  --user-popout-size: var(--background-size); /* user popout size (px) [default: var(--background-size)] */
+  --user-popout-attachment: var(--background-attachment); /* user popout background attachment [default: var(--background-attachment)] */
+  --user-popout-filter: brightness(0.5) blur(5px); /* user popout background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  
+  /* USER MODAL BACKGROUND */
+  --user-modal-image: var(--background-image); /* user modal background image (link must be HTTPS) (not applied to nitro users) [default: var(--background-image)] */
+  --user-modal-position: left; /* user modal position [default: var(--background-position)] */
+  --user-modal-size: 500%; /* user modal size (px) [default: var(--background-size)] */
+  --user-modal-attachment: var(--background-attachment); /* user modal background attachment [default: var(--background-attachment)] */
+  --user-modal-filter: blur(30px) saturate(calc(var(--saturation-factor, 1) * 1.13)) brightness(0.45); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
+  
+  /* HOME ICON */
+  --home-icon: url(https://i.imgur.com/9SLRJ3X.png); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-size: cover; /* home button icon size (px) [default:cover] */
+
+  /* FONTS */
+  --main-font: MS UI Gothic; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --code-font: Consolas; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
+
+  /* CHANNEL COLORS */
+  --channel-normal: #BBBBBB; /* channel text color [default: var(--interactive-normal)] */
+  --channel-muted: #555555; /* muted channel text color [default: var(--interactive-muted)] */
+  --channel-hover: #DDDDDD; /* hovered channel text color [default: var(--interactive-hover)] */
+  --channel-selected: #EEEEEE; /* selected channel text color [default: var(--interactive-active)] */
+  --channel-selected-bg: rgba(255, 255, 255, 0.5); /* selected channel background [default: var(--main-color)] */
+  --channel-unread: #FFFFFF; /* unread channel text color [default: var(--main-color)] */
+  --channel-unread-hover: #DDDDDD; /* unread channel hover color [default: var(--hover-color)] */
+
+  /* ACCESSIBILITY */
+  --focus-color: var(--main-color);
+
+  /* SIDE PANEL COLORS */
+  --server-list-color: rgba(0, 0, 0, 0);
+  --channel-list-color: rgba(0, 0, 0, 0);
+  --member-list-color: rgba(0, 0, 0, 0);
+
+  /* SERVER COLUMNS */
+  --columns: 1;
+  --global-margin: 5px;
+  --guildsize: 57;
+  --bordersize: 2px;
+  --aligndms: 0;
+}
+
+/* ------------------------------ ADD ADDITIONAL CSS BELOW HERE ------------------------------ */
+
+/* WINDOWS TOP BAR */
+.title_c38106 {
+  background: rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
+  border-radius: 10px;
+}
+
+/* VC Shiki Code */
+.vc-shiki-container {
+  background-color: rgba(0, 0, 0, 0) !important;
+}
+
+/* User activity color */
+.overflow__82b15 strong {
+  color: var(--main-color);
+}
+.visual-refresh.refresh-fast-follow-guild-bg .bg__960e4 {
+    background: var(--background-image);  
+}
+/* CATEGORY NAMES */
+.name__29444 {
+  color: rgb(0, 0, 0);
+  text-shadow: #000000 0px 0px 5px;
+}
+/* CHANGE URL COLOR */
+.markup__75297 .anchor_edefb8 {
+  color: rgba(255, 255, 255, 1);
