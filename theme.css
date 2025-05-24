@@ -79,11 +79,8 @@
   --member-list-color: rgba(0, 0, 0, 0);
 
   /* SERVER COLUMNS */
-  --columns: 1;
   --global-margin: 5px;
-  --guildsize: 57;
   --bordersize: 2px;
-  --aligndms: 0;
 }
 
 /* ------------------------------ ADD ADDITIONAL CSS BELOW HERE ------------------------------ */
