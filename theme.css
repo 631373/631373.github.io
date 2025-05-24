@@ -10,6 +10,9 @@
 /* IMPORT CSS */
 @import url(https://631373.github.io/main.css);
 @import url(https://631373.github.io/vencord.css);
+@import url(https://631373.github.io/theme.css);
+@import url(https://631373.github.io/mod.css);
+@import url(https://631373.github.io/global.css);
 
 /*SETTINGS*/
 :root {
@@ -74,28 +77,15 @@
   --member-list-color: rgba(0, 0, 0, 0);
 
   /* SERVER COLUMNS */
+  --columns: 1;
   --global-margin: 5px;
+  --guildsize: 55;
   --bordersize: 2px;
+  --aligndms: 0;
 }
 
-/* ------------------------------ ADD ADDITIONAL CSS BELOW HERE ------------------------------ */
+/* ADD ADDITIONAL CSS BELOW HERE */
 
-/* WINDOWS TOP BAR */
-.title_c38106 {
-  background: rgba(0, 0, 0, 0.3);
-  box-shadow: 0 0 0px rgba(0, 0, 0, 0);
-  border-radius: 10px;
-}
-
-/* VC Shiki Code */
-.vc-shiki-container {
-  background-color: rgba(0, 0, 0, 0) !important;
-}
-
-/* User activity color */
-.overflow__82b15 strong {
-  color: var(--main-color);
-}
 .visual-refresh.refresh-fast-follow-guild-bg .bg__960e4 {
     background: var(--background-image);  
 }
