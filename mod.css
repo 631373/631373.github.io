@@ -1,14 +1,12 @@
 /**
- * @name ClearVision V7 Hyprcord
- * @author Aki
- * @version 7.0.1
- * @description ClearVision V7 + Hyprland.
- * @website https://clearvision.github.io
- * @invite dHaSxn3
+ * @name Global Communications Service
+ * @author delete
+ * @version WAN
+ * @description Communications Service for Wide World I.
+ * @source https://github.com/631373/631373.github.io
+ * @website 631373.github.io
+ * @invite NO
  */
-
-/* ServerColumns addon */
-@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/ServerColumns/ServerColumns.css);
 
 /* IMPORT SOURCE (Themes) */
 @import url(https://getbricked.github.io/Hyprcord/Themes/forum.css);
@@ -18,8 +16,6 @@
 
 /* SETTINGS */
 :root {
-    /* Tweak in case using ServerColumn addon (only work for 1 column) */
-    --columns: 1;
 
     /* Global margin for everything default is 20px */
     --global-margin: 20px;
