@@ -52,11 +52,11 @@
   --user-modal-filter: blur(30px) saturate(calc(var(--saturation-factor, 1) * 1.13)) brightness(0.45); /* user modal background adjustments (ex: blur, saturation, brightness) (more info: https://developer.mozilla.org/en-US/docs/Web/CSS/filter) [default: var(--background-filter);] */
   
   /* HOME ICON */
-  --home-icon: url(https://i.imgur.com/9SLRJ3X.png); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
+  --home-icon: url(https://i.imgur.com/hVo3BT9.png); /* home button icon (link must be HTTPS) [default: url(https://clearvision.github.io/icons/discord.svg)]*/
   --home-size: cover; /* home button icon size (px) [default:cover] */
 
   /* FONTS */
-  --main-font: MS UI Gothic; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
+  --main-font: Bahnschrift Light; /* main font for app (font must be installed) [default: gg sans, Helvetica Neue, Helvetica, Arial, sans-serif] */
   --code-font: Consolas; /* font for codeblocks (font must be installed) [default: Consolas, Liberation Mono, Menlo, Courier, monospace] */
 
   /* CHANNEL COLORS */
@@ -79,9 +79,9 @@
   /* SERVER COLUMNS */
   --columns: 1;
   --global-margin: 5px;
-  --guildsize: 55;
-  --bordersize: 2px;
-  --aligndms: 0;
+  --guildsize: 0px;
+  --bordersize: 0px;
+  --aligndms: 0px;
 }
 
 /* ADD ADDITIONAL CSS BELOW HERE */
@@ -91,8 +91,8 @@
 }
 /* CATEGORY NAMES */
 .name__29444 {
-  color: rgb(0, 0, 0);
-  text-shadow: #000000 0px 0px 5px;
+  color: rgb(255, 255, 255);
+  text-shadow: #FFFFFF 0px 0px 5px;
 }
 /* CHANGE URL COLOR */
 .markup__75297 .anchor_edefb8 {
