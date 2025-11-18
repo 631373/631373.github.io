@@ -6,39 +6,8 @@
 .visual-refresh:not(.platform-osx) .leading_c38106::before{content:"Global Communications Service";position:static;margin-left:10px;font-size:16px;font-weight:600;color:var(--text-default);order:2;filter:drop-shadow(0 0 5px var(--hsl-main-color))}
 .visual-refresh:not(.platform-osx) .leading_c38106::after{content:"GCS";position:static;margin-top:-5px;margin-left:5px;font-family:var(--code-font);font-size:11px;font-weight:600;color:var(--text-muted);order:3}
 /*! Global Communications Service GCS */
-.button__201d5{border-radius:0px}
-.lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5){background-color:var(--hsl-main-color);border:none}
-.lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):hover{background-color:var(--hsl-hover-color)}
-.lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):disabled{background-color:var(--hsl-main-color)}
-.lookFilled__201d5.colorGreen__201d5{background-color:var(--hsl-success-color);border:none}
-.lookFilled__201d5.colorGreen__201d5:hover{background-color:hsl(from var(--hsl-success-color) h s l/0.8)}
-.lookFilled__201d5.colorGreen__201d5:disabled{background-color:hsl(from var(--hsl-success-color) h s l/0.8)}
-.lookFilled__201d5.colorRed__201d5{background-color:var(--hsl-danger-color);border:none}
-.lookFilled__201d5.colorRed__201d5:hover{background-color:hsl(from var(--hsl-danger-color) h s l/0.8)}
-.lookFilled__201d5.colorRed__201d5:disabled{background-color:var(--hsl-danger-color)}
-.lookFilled__201d5:is(.colorWhite__201d5,.colorBrandInverted__201d5){color:var(--hsl-main-color);border:none}
-.lookFilled__201d5:is(.colorWhite__201d5,.colorBrandInverted__201d5):hover{color:var(--hsl-hover-color)}
-.lookOutlined__201d5:is(.colorBrand__201d5,.colorPrimary__201d5){border-color:var(--hsl-main-color)}
-.lookOutlined__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):hover{border-color:var(--hsl-hover-color);background-color:var(--hsl-hover-color)}
-.lookOutlined__201d5.colorGreen__201d5{border-color:var(--hsl-success-color)}
-.lookOutlined__201d5.colorGreen__201d5:hover{border-color:hsl(from var(--hsl-success-color) h s l/0.8);background-color:hsl(from var(--hsl-success-color) h s l/0.8)}
-.lookOutlined__201d5.colorRed__201d5{background-color:rgba(0,0,0,0);border-color:var(--hsl-danger-color);color:var(--button-outline-brand-text)}
-.lookOutlined__201d5.colorRed__201d5:hover{border-color:hsl(from var(--hsl-danger-color) h s l/0.8);background-color:hsl(from var(--hsl-danger-color) h s l/0.8);color:var(--button-outline-brand-text)}
-.lookLink__201d5 .contents__201d5{background:none}
-.lookLink__201d5:hover .contents__201d5{text-decoration:underline}:is(.theme-light,.theme-dark) .lookLink__201d5:is(.colorPrimary__201d5,.colorLink__201d5){color:rgba(255,255,255,0.75)}
-.lookLink__201d5.colorBrand__201d5{color:rgba(255,255,255,0.75)}
-.lookLink__201d5.colorRed__201d5{color:var(--hsl-danger-color)}
-.button_a22cb0{border-radius:0px}
-.primary_a22cb0{background:var(--hsl-main-color);border-color:rgba(0,0,0,0)}
-.primary_a22cb0:hover,.primary_a22cb0:active{background:var(--hsl-hover-color);border-color:rgba(0,0,0,0)}
-.secondary_a22cb0{background:rgba(0,0,0,0);border-color:var(--hsl-main-color)}
-.secondary_a22cb0:hover,.secondary_a22cb0:active{background:rgba(0,0,0,0);border-color:var(--hsl-hover-color)}
-.active_a22cb0{background:var(--hsl-success-color);border-color:rgba(0,0,0,0)}
-.active_a22cb0:hover,.active_a22cb0:active{background:hsl(from var(--hsl-success-color) h s l/0.8);border-color:rgba(0,0,0,0)}
-.critical-primary_a22cb0{background:var(--hsl-danger-color);border-color:rgba(0,0,0,0)}
-.critical-primary_a22cb0:hover,.critical-primary_a22cb0:active{background:hsl(from var(--hsl-danger-color) h s l/0.8);border-color:rgba(0,0,0,0)}
-.critical-secondary_a22cb0{background:rgba(0,0,0,0);border-color:var(--hsl-danger-color);color:var(--control-text-critical-primary-default)}
-.critical-secondary_a22cb0:hover,.critical-secondary_a22cb0:active{background:rgba(0,0,0,0);border-color:hsl(from var(--hsl-danger-color) h s l/0.8);color:var(--control-text-critical-primary-default)}
+.button__201d5{border-radius:0px}.lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5){background-color:var(--hsl-main-color);border:none}.lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):hover{background-color:var(--hsl-hover-color)}.lookFilled__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):disabled{background-color:var(--hsl-main-color)}.lookFilled__201d5.colorGreen__201d5{background-color:var(--hsl-success-color);border:none}.lookFilled__201d5.colorGreen__201d5:hover{background-color:hsl(from var(--hsl-success-color) h s l/0.8)}.lookFilled__201d5.colorGreen__201d5:disabled{background-color:hsl(from var(--hsl-success-color) h s l/0.8)}.lookFilled__201d5.colorRed__201d5{background-color:var(--hsl-danger-color);border:none}.lookFilled__201d5.colorRed__201d5:hover{background-color:hsl(from var(--hsl-danger-color) h s l/0.8)}.lookFilled__201d5.colorRed__201d5:disabled{background-color:var(--hsl-danger-color)}.lookFilled__201d5:is(.colorWhite__201d5,.colorBrandInverted__201d5){color:var(--hsl-main-color);border:none}.lookFilled__201d5:is(.colorWhite__201d5,.colorBrandInverted__201d5):hover{color:var(--hsl-hover-color)}.lookOutlined__201d5:is(.colorBrand__201d5,.colorPrimary__201d5){border-color:var(--hsl-main-color)}.lookOutlined__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):hover{border-color:var(--hsl-hover-color);background-color:var(--hsl-hover-color)}.lookOutlined__201d5.colorGreen__201d5{border-color:var(--hsl-success-color)}.lookOutlined__201d5.colorGreen__201d5:hover{border-color:hsl(from var(--hsl-success-color) h s l/0.8);background-color:hsl(from var(--hsl-success-color) h s l/0.8)}.lookOutlined__201d5.colorRed__201d5{background-color:rgba(0,0,0,0);border-color:var(--hsl-danger-color);color:var(--button-outline-brand-text)}.lookOutlined__201d5.colorRed__201d5:hover{border-color:hsl(from var(--hsl-danger-color) h s l/0.8);background-color:hsl(from var(--hsl-danger-color) h s l/0.8);color:var(--button-outline-brand-text)}.lookLink__201d5 .contents__201d5{background:none}.lookLink__201d5:hover .contents__201d5{text-decoration:underline}:is(.theme-light,.theme-dark) .lookLink__201d5:is(.colorPrimary__201d5,.colorLink__201d5){color:rgba(255,255,255,0.75)}.lookLink__201d5.colorBrand__201d5{color:rgba(255,255,255,0.75)}.lookLink__201d5.colorRed__201d5{color:var(--hsl-danger-color)}
+.button_a22cb0{border-radius:0px}.primary_a22cb0{background:var(--hsl-main-color);border-color:rgba(0,0,0,0)}.primary_a22cb0:hover,.primary_a22cb0:active{background:var(--hsl-hover-color);border-color:rgba(0,0,0,0)}.secondary_a22cb0{background:rgba(0,0,0,0);border-color:var(--hsl-main-color)}.secondary_a22cb0:hover,.secondary_a22cb0:active{background:rgba(0,0,0,0);border-color:var(--hsl-hover-color)}.active_a22cb0{background:var(--hsl-success-color);border-color:rgba(0,0,0,0)}.active_a22cb0:hover,.active_a22cb0:active{background:hsl(from var(--hsl-success-color) h s l/0.8);border-color:rgba(0,0,0,0)}.critical-primary_a22cb0{background:var(--hsl-danger-color);border-color:rgba(0,0,0,0)}.critical-primary_a22cb0:hover,.critical-primary_a22cb0:active{background:hsl(from var(--hsl-danger-color) h s l/0.8);border-color:rgba(0,0,0,0)}.critical-secondary_a22cb0{background:rgba(0,0,0,0);border-color:var(--hsl-danger-color);color:var(--control-text-critical-primary-default)}.critical-secondary_a22cb0:hover,.critical-secondary_a22cb0:active{background:rgba(0,0,0,0);border-color:hsl(from var(--hsl-danger-color) h s l/0.8);color:var(--control-text-critical-primary-default)}
 /*! Global Communications Service GCS */
 .checkbox__09aca{border-radius:0px}
 .checkbox__09aca.checked__09aca{border-color:var(--hsl-main-color);background-color:rgba(0,0,0,0)}
@@ -50,14 +19,7 @@
 .mana-text-inputs .wrapper__72c38{background:var(--hsl-input-shading);border-color:var(--hsl-input-border-shading)}
 .mana-text-inputs .wrapper__72c38:not([data-read-only=true]):has(input:focus,textarea:focus){outline:none}
 /*! Global Communications Service GCS */
-.item__88a69[aria-checked=true]{background-color:rgba(0,0,0,0)}
-.refreshIconStroke__88a69{r:10 !important;stroke:var(--interactive-active)}
-.refreshIcon__88a69{fill:var(--interactive-active)}
-.radioIndicatorChecked__88a69{color:var(--interactive-active)}
-.radioIndicatorChecked__88a69 .refreshIconFill__88a69{fill:none}
-.radioIndicatorChecked__88a69 .refreshIconStroke__88a69{stroke:var(--interactive-active)}
-.radioBar__88a69{background-color:var(--hsl-card-shading);transition:all .1s ease}
-.radioBar__88a69:hover{box-shadow:inset 0 0 0 0px var(--radio-bar-accent-color, var(--hsl-hover-color))}
+.item__88a69[aria-checked=true]{background-color:rgba(0,0,0,0)}.refreshIconStroke__88a69{r:10 !important;stroke:var(--interactive-active)}.refreshIcon__88a69{fill:var(--interactive-active)}.radioIndicatorChecked__88a69{color:var(--interactive-active)}.radioIndicatorChecked__88a69 .refreshIconFill__88a69{fill:none}.radioIndicatorChecked__88a69 .refreshIconStroke__88a69{stroke:var(--interactive-active)}.radioBar__88a69{background-color:var(--hsl-card-shading);transition:all .1s ease}.radioBar__88a69:hover{box-shadow:inset 0 0 0 0px var(--radio-bar-accent-color, var(--hsl-hover-color))}
 .item__88a69[aria-checked=true] .radioBar__88a69{background-color:var(--radio-bar-accent-color, var(--hsl-main-color))}
 /*! Global Communications Service GCS */
 .slider_a562c8 .bar_a562c8,.slider_a562c8 .markDash_a562c8{background:var(--hsl-card-shading)}
@@ -79,40 +41,28 @@
 .container_fea832{background:var(--hsl-input-shading);border-color:var(--hsl-input-border-shading)}
 .container_fea832:focus-within{border-color:var(--hsl-main-color);box-shadow:0 0 4px 0 var(--hsl-main-color)}
 /*! Global Communications Service GCS */
-.pageButton_c15210:hover{background:var(--background-modifier-hover)}
-.activeButton_c15210,.activeButton_c15210:hover{background:var(--hsl-main-color)}
+.pageButton_c15210:hover{background:var(--background-modifier-hover)}.activeButton_c15210,.activeButton_c15210:hover{background:var(--hsl-main-color)}
 /*! Global Communications Service GCS */
 :is(html,body,.appMount__51fd7){background:none}
 .app_a3002d{background:var(--hsl-background-shading);color:rgba(0,0,0,0)}
 .app__160d8{background:hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.1))}
 .bg__960e4{background:var(--background-image) var(--background-position)/var(--background-size) no-repeat;background-attachment:var(--background-attachment);filter:var(--background-filter);z-index:-1}
-.container_a2f514{background:var(--hsl-background-shading)}
-.wanderingCubes__46696 .item__46696{background:var(--hsl-main-color)}
-.path__46696{stroke:var(--hsl-main-color)}
-.focus-rings-ring{box-shadow:0 0 0 4px var(--focus-color)}
+.container_a2f514{background:var(--hsl-background-shading)}.wanderingCubes__46696 .item__46696{background:var(--hsl-main-color)}.path__46696{stroke:var(--hsl-main-color)}.focus-rings-ring{box-shadow:0 0 0 4px var(--focus-color)}
 /*! Global Communications Service GCS */
-::-moz-placeholder{font-family:var(--hsl-main-font)}
-body,button,input,select,textarea,::placeholder{font-family:var(--hsl-main-font)}
-code{font-family:var(--code-font)}
+::-moz-placeholder{font-family:var(--hsl-main-font)}body,button,input,select,textarea,::placeholder{font-family:var(--hsl-main-font)}code{font-family:var(--code-font)}
 ::-moz-selection{background:var(--hsl-main-color);color:var(--text-default)}
 ::selection{background:var(--hsl-main-color);color:var(--text-default)}
 /*! Global Communications Service GCS */
-.bar_c38106{background-color:rgba(0,0,0,0);padding-left:0}
-.leading_c38106{gap:0;margin:0 6px}
+.bar_c38106{background-color:rgba(0,0,0,0);padding-left:0}.leading_c38106{gap:0;margin:0 6px}
 /*! Global Communications Service GCS */
-.notice__6e2b9{border-radius:0px}
-.colorBrand__6e2b9{--custom-notice-background: hsl(from var(--hsl-main-color) h s l/.8)}
-.colorDanger__6e2b9{--custom-notice-background: hsl(from var(--hsl-danger-color) h s l/.8)}
-.colorStreamerMode__6e2b9{--custom-notice-background: hsl(from var(--hsl-streaming-color) h s l/.8)}
+.notice__6e2b9{border-radius:0px}.colorBrand__6e2b9{--custom-notice-background: hsl(from var(--hsl-main-color) h s l/.8)}.colorDanger__6e2b9{--custom-notice-background: hsl(from var(--hsl-danger-color) h s l/.8)}.colorStreamerMode__6e2b9{--custom-notice-background: hsl(from var(--hsl-streaming-color) h s l/.8)}
 /*! Global Communications Service GCS */
 :is(.auto__99f8c,.auto_d125d2)::-webkit-scrollbar{width:14px}:is(.auto__99f8c,.auto_d125d2)::-webkit-scrollbar-thumb,:is(.auto__99f8c,.auto_d125d2)::-webkit-scrollbar-track{border:3px solid rgba(0,0,0,0);border-radius:7px}:is(.auto__99f8c,.auto_d125d2)::-webkit-scrollbar-track{background:rgba(0,0,0,0)}:is(.thin__99f8c,.thin_d125d2)::-webkit-scrollbar{width:8px}:is(.thin__99f8c,.thin_d125d2)::-webkit-scrollbar-thumb,:is(.thin__99f8c,.thin_d125d2)::-webkit-scrollbar-track{border:3px solid rgba(0,0,0,0);border-radius:5px}:is(:is(.auto__99f8c,.auto_d125d2),:is(.thin__99f8c,.thin_d125d2))::-webkit-scrollbar-thumb{background-color:var(--hsl-main-color)}:is(:is(.auto__99f8c,.auto_d125d2),:is(.thin__99f8c,.thin_d125d2))::-webkit-scrollbar-thumb:active{background-color:var(--hsl-hover-color)}
 /*! Global Communications Service GCS */
 .mediaBarProgress_b26b79,.mediaBarProgress_b26b79::before,.mediaBarProgress_b26b79::after{background:var(--hsl-main-color)}
 .mediaBarGrabber_b26b79,.mediaBarInteraction_b26b79:hover .mediaBarGrabber_b26b79,.mediaBarInteractionDragging_b26b79 .mediaBarGrabber_b26b79{background:var(--hsl-main-color)}
 /*! Global Communications Service GCS */
-.authBox__921c5{background-color:var(--hsl-modal-shading)}
-.list__920b8{background-color:var(--background-mod-subtle)}
-.navRow__86e92{background-color:rgba(0,0,0,0)}
+.authBox__921c5{background-color:var(--hsl-modal-shading)}.list__920b8{background-color:var(--background-mod-subtle)}.navRow__86e92{background-color:rgba(0,0,0,0)}
 /*! Global Communications Service GCS */
 .numberBadge__2b1f5,.textBadge__2b1f5{background:var(--hsl-main-color) !important;color:var(--header-primary)}
 /*! Global Communications Service GCS */
@@ -123,8 +73,7 @@ code{font-family:var(--code-font)}
 .chat_f75fb0[data-has-border=true]{border:none}
 .chat_f75fb0.threadSidebarOpen_f75fb0{border-bottom-right-radius:0}
 .theme-midnight .content_f75fb0{border:none}
-.chatContent_f75fb0,.scroller__28a87{background:hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))}
-.chatGradientBase__36d07{background:none}
+.chatContent_f75fb0,.scroller__28a87{background:hsl(from var(--hsl-background-shading) h s l/calc(var(--background-shading-percent) * 0.4))}.chatGradientBase__36d07{background:none}
 .scrollerSpacer__36d07{height:20px}
 .scroller__36d07::-webkit-scrollbar-track{margin-bottom:20px}
 .wrapper_d852db,.wrapper_fc8177{background-color:rgba(0,0,0,0)}
