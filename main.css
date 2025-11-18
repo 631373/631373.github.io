@@ -895,7 +895,7 @@ code{font-family:var(--code-font)}
 :is(.theme-light,.theme-dark) .codeRedemptionRedirect_a706ba{background:var(--hsl-card-shading);border:none}
 .selectionCircle__36dee{box-shadow:inset 0 0 0 4px var(--hsl-main-color)}
 .checkmark__36dee{color:var(--hsl-main-color)}
-.container__06283{-webkit-mask-image:url(https://Global Communications Service.github.io/icons/pill.svg);mask-image:url(https://Global Communications Service.github.io/icons/pill.svg);background:var(--hsl-main-color) !important}
+.container__06283{-webkit-mask-image:url();mask-image:url();background:var(--hsl-main-color) !important}
 :is(.theme-light,.theme-dark) .progress__06283{background:var(--hsl-background-shading)}
 .notches__06283{display:none}
 :is(.theme-light,.theme-dark) .sliderBar_ac7648{background-color:var(--background-mod-subtle)}
