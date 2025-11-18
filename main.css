@@ -26,7 +26,7 @@
 .lookOutlined__201d5:is(.colorBrand__201d5,.colorPrimary__201d5):hover{border-color:var(--hsl-hover-color);background-color:var(--hsl-hover-color)}
 .lookOutlined__201d5.colorGreen__201d5{border-color:var(--hsl-success-color)}
 .lookOutlined__201d5.colorGreen__201d5:hover{border-color:hsl(from var(--hsl-success-color) h s l/0.8);background-color:hsl(from var(--hsl-success-color) h s l/0.8)}
-.lookOutlined__201d5.colorRed__201d5{background-color:rgba(0,0,0,0);border-color:var(--hsl-danger-color);color:var(--button-outline-brand-text)}
+.lookOutlined__201d5.colorRed__201d5{background-color:rgba(0,0,0,1);border-color:var(--hsl-danger-color);color:var(--button-outline-brand-text)}
 .lookOutlined__201d5.colorRed__201d5:hover{border-color:hsl(from var(--hsl-danger-color) h s l/0.8);background-color:hsl(from var(--hsl-danger-color) h s l/0.8);color:var(--button-outline-brand-text)}
 .lookLink__201d5 .contents__201d5{background:none}
 .lookLink__201d5:hover .contents__201d5{text-decoration:underline}
