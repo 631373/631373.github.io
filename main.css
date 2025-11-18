@@ -1044,15 +1044,15 @@ code{font-family:var(--code-font)}
 .link__2ea32::before{top:0;right:100%;bottom:0;left:0;transition:all .15s ease-in-out;z-index:-1;border-radius:0px}
 .icon__2ea32{width:18px;height:18px;margin-right:3px;transition:all .15s ease-in-out;color:var(--hsl-channel-normal)}
 .name__2ea32{transition:all .15s ease-in-out;color:var(--hsl-channel-normal)}
-.wrapper__2ea32.modeMuted__2ea32 .name__2ea32,.wrapper__2ea32.modeMuted__2ea32 .icon__2ea32{color:var(--hsl-channel-muted)}
+.wrapper__2ea32.modeMuted__2ea32 .name__2ea32,.wrapper__2ea32.modeMuted__2ea32 .icon__2ea32{color:rgba(255, 255, 255, 1)}
 .wrapper__2ea32:hover .link__2ea32,.wrapper__2ea32.modeMuted__2ea32:hover .link__2ea32{background:var(--background-modifier-hover)}
-.wrapper__2ea32:hover .name__2ea32,.wrapper__2ea32:hover .icon__2ea32,.wrapper__2ea32.modeMuted__2ea32:hover .name__2ea32,.wrapper__2ea32.modeMuted__2ea32:hover .icon__2ea32{color:var(--hsl-channel-hover)}
-.wrapper__2ea32.modeUnreadImportant__2ea32 .name__2ea32{color:var(--hsl-channel-unread);text-shadow:0 0 3px}
-.wrapper__2ea32.modeUnreadImportant__2ea32 .icon__2ea32{color:var(--hsl-channel-unread);filter:drop-shadow(0 0 3px)}
+.wrapper__2ea32:hover .name__2ea32,.wrapper__2ea32:hover .icon__2ea32,.wrapper__2ea32.modeMuted__2ea32:hover .name__2ea32,.wrapper__2ea32.modeMuted__2ea32:hover .icon__2ea32{color:rgba(255, 255, 255, 1)}
+.wrapper__2ea32.modeUnreadImportant__2ea32 .name__2ea32{color:rgba(255, 255, 255, 1);text-shadow:0 0 3px}
+.wrapper__2ea32.modeUnreadImportant__2ea32 .icon__2ea32{color:rgba(255, 255, 255, 1);filter:drop-shadow(0 0 3px)}
 .wrapper__2ea32.modeUnreadImportant__2ea32:hover :is(.name__2ea32,.icon__2ea32){color:var(--hsl-channel-unread-hover)}
 .wrapper__2ea32.modeSelected__2ea32 .link__2ea32{background-color:rgba(0,0,0,0)}
 .wrapper__2ea32.modeSelected__2ea32 .link__2ea32::before{right:0;background:var(--hsl-channel-selected-bg);animation:cv-channel-select .3s ease-in-out}
-.wrapper__2ea32.modeSelected__2ea32 .name__2ea32,.wrapper__2ea32.modeSelected__2ea32 .icon__2ea32{color:var(--hsl-channel-selected)}
+.wrapper__2ea32.modeSelected__2ea32 .name__2ea32,.wrapper__2ea32.modeSelected__2ea32 .icon__2ea32{color:rgba(255, 255, 255, 1)}
 .wrapper__2ea32.modeConnected__2ea32 .name__2ea32{color:var(--hsl-main-color);text-shadow:0 0 3px}
 .wrapper__2ea32.modeConnected__2ea32 .icon__2ea32{color:var(--hsl-main-color);filter:drop-shadow(0 0 3px)}
 .wrapper__260e1,.users__260e1{background:rgba(0,0,0,0)}
